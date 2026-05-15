@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOVI Cam — Modo IA</title>
+  <link rel="stylesheet" href="../css/ia.css">
+</head>
+<body>
+  <a class="hub-link" href="../index.html">← Hub</a>
+  <main class="screen">
+
+    <!-- Status Bar -->
+    <header class="status-bar">
+      <span class="time">9:41</span>
+      <div class="dynamic-island"></div>
+      <div class="status-icons">
+        <span>▲▲▲</span>
+        <span>WiFi</span>
+        <span>🔋</span>
+      </div>
+    </header>
+
+    <!-- Top Controls Bar -->
+    <nav class="controls-bar">
+      <button class="ctrl-btn">⊙</button>
+      <button class="ctrl-btn">⚡</button>
+      <button class="ctrl-btn ctrl-btn--active">◎</button>
+      <button class="ctrl-btn">◈</button>
+      <button class="ctrl-btn">⚙</button>
+    </nav>
+
+    <!-- Viewfinder -->
+    <section class="viewfinder">
+
+      <!-- AI Chip -->
+      <div class="ai-chip">
+        <span class="ai-chip__dot"></span>
+        <span class="ai-chip__label">IA · Modo Noite detectado</span>
+      </div>
+
+      <!-- Grid overlay -->
+      <div class="grid-overlay">
+        <div class="grid-line grid-line--v1"></div>
+        <div class="grid-line grid-line--v2"></div>
+        <div class="grid-line grid-line--h1"></div>
+        <div class="grid-line grid-line--h2"></div>
+      </div>
+
+      <!-- Focus Reticle (yellow corners) -->
+      <div class="reticle">
+        <span class="reticle__corner reticle__corner--tl"></span>
+        <span class="reticle__corner reticle__corner--tr"></span>
+        <span class="reticle__corner reticle__corner--bl"></span>
+        <span class="reticle__corner reticle__corner--br"></span>
+      </div>
+
+    </section>
+
+    <!-- Zoom Selector -->
+    <div class="zoom-bar">
+      <span class="zoom-option">0.6x</span>
+      <span class="zoom-option zoom-option--active">1×</span>
+      <span class="zoom-option">2×</span>
+    </div>
+
+    <!-- Mode Tabs -->
+    <nav class="mode-tabs">
+      <a href="tela-estudo.html" class="mode-tab mode-tab--estudo">Estudo</a>
+      <button class="mode-tab mode-tab--ia mode-tab--active">
+        IA
+        <span class="mode-tab__dot"></span>
+      </button>
+      <button class="mode-tab">Noite</button>
+      <button class="mode-tab">Foto</button>
+      <button class="mode-tab">Vídeo</button>
+      <a href="tela-config.html" class="mode-tab">Modos</a>
+    </nav>
+
+    <!-- Camera Controls -->
+    <footer class="cam-controls">
+      <button class="btn-gallery">📷</button>
+      <button class="btn-shutter"></button>
+      <button class="btn-flip">⟳</button>
+    </footer>
+
+  </main>
+</body>
+</html>
